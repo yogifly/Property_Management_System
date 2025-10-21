@@ -1,0 +1,86 @@
+[
+  {
+    "index": 0,
+    "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "timestamp": 1761073188,
+    "transactions": [
+      {
+        "type": "genesis",
+        "msg": "Genesis Block"
+      }
+    ],
+    "nonce": 0
+  },
+  {
+    "index": 1,
+    "previous_hash": "66867dbfda1dd9cebf74c4322f0a902f8ab1aca8aed6f20c101fd484914e0cd7",
+    "timestamp": 1761073197,
+    "transactions": [
+      {
+        "type": "create_property",
+        "property_id": "b393f37d-7b6d-46de-8f69-7a2fa5b151f6",
+        "owner": "alice",
+        "timestamp": 1761073197
+      }
+    ],
+    "nonce": 23
+  },
+  {
+    "index": 2,
+    "previous_hash": "005c16388bf407771dd4682ff413184d44a54a9afa7904062bac07c823531919",
+    "timestamp": 1761073243,
+    "transactions": [
+      {
+        "type": "rent",
+        "property_id": "b393f37d-7b6d-46de-8f69-7a2fa5b151f6",
+        "owner": "alice",
+        "renter": "bob",
+        "timestamp": 1761073243
+      }
+    ],
+    "nonce": 255
+  },
+  {
+    "index": 3,
+    "previous_hash": "00224b61cae91db8c084e2eaacc0062ed06c13b4ddab74e42ceabb717f7361d8",
+    "timestamp": 1761073298,
+    "transactions": [
+      {
+        "type": "create_property",
+        "property_id": "e65e81b1-8390-485c-899d-1b04d4b030f7",
+        "owner": "alice",
+        "timestamp": 1761073298
+      }
+    ],
+    "nonce": 697
+  },
+  {
+    "index": 4,
+    "previous_hash": "009d170c9ac3f62b0d2dbdd11f8fad2fd269af159ce4335a4b329433993a22dc",
+    "timestamp": 1761073332,
+    "transactions": [
+      {
+        "type": "create_property",
+        "property_id": "918daa65-b1fa-4443-9098-0fbf050346c9",
+        "owner": "bob",
+        "timestamp": 1761073332
+      }
+    ],
+    "nonce": 36
+  },
+  {
+    "index": 5,
+    "previous_hash": "00cd8fcb6cb3b4af70d32d69fb2ac3f798877b4123aaa191b4c02a3ec328c61e",
+    "timestamp": 1761073361,
+    "transactions": [
+      {
+        "type": "transfer",
+        "property_id": "918daa65-b1fa-4443-9098-0fbf050346c9",
+        "from": "bob",
+        "to": "carlos",
+        "timestamp": 1761073361
+      }
+    ],
+    "nonce": 4
+  }
+]

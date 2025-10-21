@@ -1,0 +1,14 @@
+{
+  "alice": {
+    "id": "alice",
+    "name": "Alice Demo"
+  },
+  "bob": {
+    "id": "bob",
+    "name": "Bob Demo"
+  },
+  "carlos": {
+    "id": "carlos",
+    "name": "Carlos Demo"
+  }
+}

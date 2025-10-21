@@ -1,0 +1,61 @@
+{
+  "b393f37d-7b6d-46de-8f69-7a2fa5b151f6": {
+    "id": "b393f37d-7b6d-46de-8f69-7a2fa5b151f6",
+    "title": "Cozy Apartment",
+    "description": "2BHK with balcony",
+    "owner": "alice",
+    "created_at": 1761073197,
+    "rented_to": "bob",
+    "history": [
+      {
+        "type": "created",
+        "owner": "alice",
+        "timestamp": 1761073197
+      },
+      {
+        "type": "rent",
+        "owner": "alice",
+        "renter": "bob",
+        "timestamp": 1761073243,
+        "block_index": 2
+      }
+    ]
+  },
+  "e65e81b1-8390-485c-899d-1b04d4b030f7": {
+    "id": "e65e81b1-8390-485c-899d-1b04d4b030f7",
+    "title": "SFIT",
+    "description": "CLG",
+    "owner": "alice",
+    "created_at": 1761073298,
+    "rented_to": null,
+    "history": [
+      {
+        "type": "created",
+        "owner": "alice",
+        "timestamp": 1761073298
+      }
+    ]
+  },
+  "918daa65-b1fa-4443-9098-0fbf050346c9": {
+    "id": "918daa65-b1fa-4443-9098-0fbf050346c9",
+    "title": "Thakur",
+    "description": "CLG",
+    "owner": "carlos",
+    "created_at": 1761073332,
+    "rented_to": null,
+    "history": [
+      {
+        "type": "created",
+        "owner": "bob",
+        "timestamp": 1761073332
+      },
+      {
+        "type": "transfer",
+        "from": "bob",
+        "to": "carlos",
+        "timestamp": 1761073361,
+        "block_index": 5
+      }
+    ]
+  }
+}
