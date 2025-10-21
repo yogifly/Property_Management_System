@@ -1,4 +1,4 @@
-# 🏠 PropertyChain — Simplified Blockchain Property Management
+# 🏠 PropertyChain — Blockchain Property Management
 
 PropertyChain is a demo project that simulates property management on a blockchain.  
 It allows users to **create properties, transfer ownership, and rent properties**, all recorded on a blockchain ledger.  
